@@ -1,0 +1,196 @@
+.header {
+     
+    color: white;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1.4em;
+    padding: 10px;
+    background-color: #15546A;
+   	position: relative;
+}
+
+.mainbody{
+
+	height: 500px;
+	color: blue;
+	text-align: center;
+	position: relative;
+	margin: auto;
+
+}
+
+.aboutindex{
+	
+	width: 90px;
+	height: 25px;
+	border-radius:10px;
+	color: black;
+	text-align: center;
+	border: 1px solid #15546A;
+	background-color: white;
+	margin: auto;
+	font-size: 15px;
+
+
+}
+
+a:hover{
+	color: blue;
+}
+
+#popup{
+	background-color: white;
+	color: blue;
+	border-radius: 10px;
+	height:25px;
+	width: 90px;
+	font-size: 10px;
+}
+
+#about{
+
+	color: black;
+}
+#aboutindexpop{
+
+	display:none; /* Hide the DIV */
+    position:fixed;  
+    _position:absolute; /* hack for internet explorer 6 */  
+    height:300px;  
+    width:600px;  
+    background:#FFFFFF;  
+    left: 300px;
+    top: 150px;
+    z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+    margin-left: 15px;  
+    
+    /* additional features, can be omitted */
+    border:2px solid #ff0000;      
+    padding:15px;  
+    font-size:15px;  
+    -moz-box-shadow: 0 0 5px #ff0000;
+    -webkit-box-shadow: 0 0 5px #ff0000;
+    box-shadow: 0 0 5px #ff0000;
+    color: black;
+    
+}
+
+.container1{
+
+	left:0; 
+	float:left; 
+    height:500px;
+    width:1000px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+
+}
+
+.container2{
+  max-width: 1600px;
+  margin: auto;
+  margin-top:10px;
+  left:1000; 
+  float:left; 
+  height:500px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  width: 600px;
+  color: black;
+}
+
+#stat{
+
+	background-color:#15546A;
+	height: 140px;
+	width: 160px;
+	display: inline-block;
+	margin: 10px;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	font-size: 1.0em;
+	font-family: Raleway;
+}
+
+
+#stat1{
+	max-width: 160px;
+	right: -20px;
+	height: 80px;
+	width: 120px;
+	text-align: center;
+	margin-top:20px;
+	position: relative;
+	color: white;
+	background-color: blue;
+	border-radius: 5px;
+	font-size: 0.8em;
+	display: inline-block;
+}
+
+#stat2{
+	max-width: 1600px;
+	right: -50px;
+	height: 80px;
+	width: 120px;
+	text-align: center;
+	margin-top:20px;
+	position: relative;
+	color: white;
+	background-color: blue;
+	border-radius: 5px;
+	font-size: 0.8em;
+	display: inline-block;
+
+}
+#stat3{
+	max-width: 1600px;
+	right: -80px;
+	height: 80px;
+	width: 120px;
+	text-align: center;
+	margin-top:20px;
+	position: relative;
+	color: white;
+	background-color: blue;
+	border-radius: 5px;
+	font-size: 0.8em;
+	display: inline-block;
+
+
+}
+#stat4{
+	max-width: 1600px;
+	right: -20px;
+	height: 80px;
+	width: 120px;
+	text-align: center;
+	margin-top:60px;
+	position: relative;
+	color: white;
+	background-color: blue;
+	border-radius: 5px;
+	font-size: 0.8em;
+	float: 
+
+
+}
+#stat5{
+	max-width: 1600px;
+	right: -50px;
+	height: 80px;
+	width: 120px;
+	text-align: center;
+	margin-top:60px;
+	position: relative;
+	color: white;
+	background-color: blue;
+	border-radius: 5px;
+	font-size: 0.8em;
+	display: inline-block;
+
+
+}
