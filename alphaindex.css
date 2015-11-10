@@ -19,178 +19,153 @@
 
 }
 
-.aboutindex{
-	
-	width: 90px;
-	height: 25px;
-	border-radius:10px;
-	color: black;
-	text-align: center;
-	border: 1px solid #15546A;
-	background-color: white;
-	margin: auto;
-	font-size: 15px;
 
-
+.panel {
+	background: white;
+    background-size:90% 90%;
+    height:180px;
+	display:none;
+    font-family:raleway;
 }
 
-a:hover{
-	color: blue;
-}
-
-#popup{
-	background-color: white;
-	color: blue;
-	border-radius: 10px;
-	height:25px;
-	width: 90px;
-	font-size: 10px;
-}
-
-#about{
-
-	color: black;
-}
-#aboutindexpop{
-
-	display:none; /* Hide the DIV */
-    position:fixed;  
-    _position:absolute; /* hack for internet explorer 6 */  
-    height:300px;  
-    width:600px;  
-    background:#FFFFFF;  
-    left: 300px;
-    top: 150px;
-    z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
-    margin-left: 15px;  
-    
-    /* additional features, can be omitted */
-    border:2px solid #ff0000;      
-    padding:15px;  
-    font-size:15px;  
-    -moz-box-shadow: 0 0 5px #ff0000;
-    -webkit-box-shadow: 0 0 5px #ff0000;
-    box-shadow: 0 0 5px #ff0000;
+.panel p{
+    text-align:center;
     color: black;
-    
+    padding-top: 0px;
+
+}
+.slide {
+	margin:0;
+	padding:0;
+	border-top:solid 1px #3B5F68;
+}
+.pull-me {
+	display:block;
+    position:relative;
+    left:790px;
+    width:100px;
+    height:20px;
+	font-family:arial,sans-serif;
+    font-size:14px;
+	color:#ffffff;
+    background:#0a3742;
+	text-decoration:none;
+	text-align: center;
+    -moz-border-bottom-left-radius:5px;
+    -moz-border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    -webkit-box-shadow: 0 0 8px #3B5F68;
+    -moz-box-shadow: 0 0 8px #3B5F68;
+    box-shadow: 0 0 8px #3B5F68;
+    cursor:pointer;
+    text-align: center;
 }
 
-.container1{
+
+
+.aGraph{
 
 	left:0; 
 	float:left; 
     height:500px;
-    width:1000px;
+    width:800px;
     text-align: center;
-    position: relative;
     margin: auto;
+
 
 }
 
 .container2{
-  max-width: 1600px;
   margin: auto;
   margin-top:10px;
-  left:1000; 
+  left:0px; 
   float:left; 
-  height:500px;
+  height:800px;
   text-align: center;
   position: relative;
   margin: auto;
-  width: 600px;
-  color: black;
+  width: 850px;
+  clear: bottom;
+}
+
+#heading{
+
+
+    margin-left: 325px;
+    margin-top: 20px;
+    background-color: #371e37;
+    color: #ffffff;
+    width: 180px;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-size: 1.1em;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 8px #371e33;
+
 }
 
 #stat{
 
 	background-color:#15546A;
+	height: 100px;
+	width: 140px;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 3px;
+	color: white;
+	text-align: center;
+	font-size: 0.8em;
+	font-family: Raleway;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	box-shadow: 0 0 8px #3B5F68;
+}
+
+#keystat1{
+
+
+	display: inline-block;
+	background-color:#0b4650;
 	height: 140px;
 	width: 160px;
-	display: inline-block;
-	margin: 10px;
-	border-radius: 5px;
+	margin-right: 150px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+	margin-top: 20px;
+	border-radius: 3px;
 	color: white;
 	text-align: center;
 	font-size: 1.0em;
 	font-family: Raleway;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	box-shadow: 0 0 14px #3B5F68;
+	position: relative;
+
 }
 
+#keystat2{
 
-#stat1{
-	max-width: 160px;
-	right: -20px;
-	height: 80px;
-	width: 120px;
-	text-align: center;
-	margin-top:20px;
-	position: relative;
-	color: white;
-	background-color: blue;
-	border-radius: 5px;
-	font-size: 0.8em;
+
 	display: inline-block;
-}
-
-#stat2{
-	max-width: 1600px;
-	right: -50px;
-	height: 80px;
-	width: 120px;
-	text-align: center;
-	margin-top:20px;
-	position: relative;
+	background-color:#0b4650;
+	height: 140px;
+	width: 160px;
+	top: 22px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 120px;
+	border-radius: 3px;
 	color: white;
-	background-color: blue;
-	border-radius: 5px;
-	font-size: 0.8em;
-	display: inline-block;
-
-}
-#stat3{
-	max-width: 1600px;
-	right: -80px;
-	height: 80px;
-	width: 120px;
 	text-align: center;
-	margin-top:20px;
+	font-size: 1.0em;
+	font-family: Raleway;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	box-shadow: 0 0 14px #3B5F68;
 	position: relative;
-	color: white;
-	background-color: blue;
-	border-radius: 5px;
-	font-size: 0.8em;
-	display: inline-block;
-
 
 }
-#stat4{
-	max-width: 1600px;
-	right: -20px;
-	height: 80px;
-	width: 120px;
-	text-align: center;
-	margin-top:60px;
-	position: relative;
-	color: white;
-	background-color: blue;
-	border-radius: 5px;
-	font-size: 0.8em;
-	float: 
 
 
-}
-#stat5{
-	max-width: 1600px;
-	right: -50px;
-	height: 80px;
-	width: 120px;
-	text-align: center;
-	margin-top:60px;
-	position: relative;
-	color: white;
-	background-color: blue;
-	border-radius: 5px;
-	font-size: 0.8em;
-	display: inline-block;
 
-
-}
