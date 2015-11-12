@@ -69,10 +69,9 @@
 	left:0; 
 	float:left; 
     height:500px;
-    width:800px;
-    text-align: center;
-    margin: auto;
-
+    width:1000px;
+    text-align: left;
+    margin-left: 0px;
 
 }
 
