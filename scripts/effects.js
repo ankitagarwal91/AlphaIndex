@@ -22,7 +22,7 @@ $(document).ready(function(){
     
     });
 
-    $('#keystat1').click(function(){
+    $('#keystat1').mouseenter(function(){
     	$('#keystat1').animate({ 'zoom': 1.2 }, 400);
     });
 
@@ -30,7 +30,7 @@ $(document).ready(function(){
     	$('#keystat1').animate({ 'zoom': 1 }, 400);
     });
 
-    $('#keystat2').click(function(){
+    $('#keystat2').mouseenter(function(){
     	$('#keystat2').animate({ 'zoom': 1.2 }, 400);
     });
 
@@ -38,7 +38,7 @@ $(document).ready(function(){
     	$('#keystat2').animate({ 'zoom': 1 }, 400);
     });
 
-    $('.keystat3').click(function(){
+    $('.keystat3').mouseenter(function(){
     	$('.keystat3').animate({ 'zoom': 1.2 }, 400);
     });
 
@@ -46,28 +46,28 @@ $(document).ready(function(){
     	$('.keystat3').animate({ 'zoom': 1 }, 400);
     });
 
-    $('.keystat4').click(function(){
+    $('.keystat4').mouseenter(function(){
     	$('.keystat4').animate({ 'zoom': 1.2 }, 400);
     });
 
     $('.keystat4').mouseleave(function(){
     	$('.keystat4').animate({ 'zoom': 1 }, 400);
     });
-    $('.keystat5').click(function(){
+    $('.keystat5').mouseenter(function(){
     	$('.keystat5').animate({ 'zoom': 1.2 }, 400);
     });
 
     $('.keystat5').mouseleave(function(){
     	$('.keystat5').animate({ 'zoom': 1 }, 400);
     });
-    $('.keystat6').click(function(){
+    $('.keystat6').mouseenter(function(){
     	$('.keystat6').animate({ 'zoom': 1.2 }, 400);
     });
 
     $('.keystat6').mouseleave(function(){
     	$('.keystat6').animate({ 'zoom': 1 }, 400);
     });
-    $('.keystat7').click(function(){
+    $('.keystat7').mouseenter(function(){
     	$('.keystat7').animate({ 'zoom': 1.2 }, 400);
     });
 
